@@ -96,7 +96,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   final List<Map<String, String>> _onBoardingData = [
     {
       "image": AssetsData.onBoarding_1,
-      "title": "Welcome to AM/PM\nLocum Finder",
+      "title": "Welcome to AM/PM\nLocum Care",
       "description": "Discover the best locum opportunities tailored to your needs.",
     },
     {

@@ -6,7 +6,7 @@ import 'package:locum_care/core/themes/themedata.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ThemeCubit extends Cubit<ThemeData> {
-  ThemeCubit() : super(lightTheme) {
+  ThemeCubit() : super(darkTheme) {
     _loadTheme();
   }
 
@@ -23,7 +23,7 @@ class ThemeCubit extends Cubit<ThemeData> {
 
   void _loadTheme() {
     final prefs = serviceLocator<SharedPreferences>();
-    final isDarkMode = prefs.getBool(ShPrefKey.isDarkMode) ?? false;
+    final isDarkMode = prefs.getBool(ShPrefKey.isDarkMode) ?? true;
     emit(isDarkMode ? darkTheme : lightTheme);
   }
 

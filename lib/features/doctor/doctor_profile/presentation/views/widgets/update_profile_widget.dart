@@ -26,7 +26,8 @@ class ProfileIncompleteWidget extends StatelessWidget {
           padding: const EdgeInsets.all(16.0),
           margin: const EdgeInsets.only(top: 10),
           decoration: BoxDecoration(
-            color: themeCubit.isDarkMode() ? Colors.black38 : Colors.white,
+            // color: themeCubit.isDarkMode() ? Colors.black38 : Colors.white,
+            // color: themeCubit.isDarkMode() ? Colors.black38 : Colors.white,
             borderRadius: BorderRadius.circular(12.0),
             boxShadow: [
               BoxShadow(
