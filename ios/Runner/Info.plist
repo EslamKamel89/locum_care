@@ -45,5 +45,34 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+	<string>tel</string>
+    <string>mailto</string>
+    <string>maps</string>
+    <string>http</string>
+    <string>https</string>
+	</array>
+		<!-- Profile Picture: Camera Access -->
+	<key>NSCameraUsageDescription</key>
+	<string>We need access to your camera to take a profile photo.</string>
+
+	<!-- Profile Picture: Photo Library Access -->
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need access to your photo library to select a profile picture.</string>
+
+	<!-- Profile Picture: Save to Photo Library (optional) -->
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>We may save your selected profile picture to your photo library.</string>
+
+	<!-- File Selection: Required for selecting CV files (iOS 14+) -->
+	<key>NSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+
+
+	
 </dict>
 </plist>
